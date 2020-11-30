@@ -1,7 +1,7 @@
 # README
 
 ## About
-Source code repository can be found [here](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+).
+Source code repository can be found [here](https://github.com/alexdobin/STAR).
 
 ## Building the container for Bridges (or similar)
 There is no need to build a container, because an image is already available from Biocontainers, hence all you need to do is run
