@@ -1,19 +1,19 @@
 --
--- star 2.7.6a modulefile
+-- STAR 2.7.6a modulefile
 --
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Biological Sciences"
 -- "Description: Spliced Transcripts Alignment to a Reference (STAR) is a fast RNA-seq read mapper, with support for splice-junction and fusion read detection."
 -- "Keywords: singularity bioinformatics"
 
-whatis("Name: star")
+whatis("Name: STAR")
 whatis("Version: 2.7.6a")
 whatis("Category: Biological Sciences")
 whatis("URL: https://www.psc.edu/resources/software")
 whatis("Description: Spliced Transcripts Alignment to a Reference (STAR) is a fast RNA-seq read mapper, with support for splice-junction and fusion read detection.")
 
 help([[
-star 2.7.6a
+STAR 2.7.6a
 -----------
 
 Description
@@ -22,11 +22,11 @@ Spliced Transcripts Alignment to a Reference (STAR) is a fast RNA-seq read mappe
 
 To load the module, type
 
-> module load star/2.7.6a
+> module load STAR/2.7.6a
 
 To unload the module, type
 
-> module unload star/2.7.6a
+> module unload STAR/2.7.6a
 
 Documentation
 -------------
@@ -45,7 +45,7 @@ Tools included in this module are
 * STAR
 ]])
 
-local package = "star"
+local package = "STAR"
 local version = "2.7.6a"
 local base    = pathJoin("/opt/packages",package,version)
 prepend_path("PATH", base)

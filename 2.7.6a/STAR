@@ -5,8 +5,8 @@ if [ ! $(command -v singularity) ]; then
 fi
 
 VERSION=2.7.6a
-PACKAGE=star
-TOOL=STAR
+PACKAGE=STAR
+TOOL=$PACKAGE
 DIRECTORY=/opt/packages/$PACKAGE/$VERSION
 
 PERSISTENT_FILE_STORAGE=/ocean
