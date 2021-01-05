@@ -20,17 +20,18 @@ Description
 -----------
 Spliced Transcripts Alignment to a Reference (STAR) is a fast RNA-seq read mapper, with support for splice-junction and fusion read detection.
 
-To load the module type
+To load the module, type
 
 > module load star/2.7.6a
 
-To unload the module type
+To unload the module, type
 
 > module unload star/2.7.6a
 
 Documentation
 -------------
 https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf
+
 For help, type
 
 > STAR -help
