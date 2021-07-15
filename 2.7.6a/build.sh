@@ -1,6 +1,19 @@
 #!/bin/bash
 
-IMAGE=singularity-STAR-2.7.6a.sif
+# Copyright © 2021 Pittsburgh Supercomputing Center.
+# All Rights Reserved.
+
+IMAGE=singularity-star-2.7.6a.sif
 DEFINITION=Singularity
 
-singularity build --remote $IMAGE $DEFINITION
+if [ -f $IMAGE ]; then
+	rm -fv $IMAGE
+fi
+
+sudo singularity build $IMAGE $DEFINITION
+
+if [ -f $IMAGE ]; then
+	exit 0
+else
+	exit 1
+fi
