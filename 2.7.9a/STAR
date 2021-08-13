@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION=2.7.6a
+VERSION=2.7.9a
 PACKAGE=STAR
 TOOL=$PACKAGE
 DIRECTORY=$(dirname $0)
