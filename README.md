@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/github/license/pscedu/singularity-star)
 
 # singularity-star
-Singularity recipe for [star](https://github.com/sandialabs/star).
+Singularity recipe for [star](https://github.com/alexdobin/STAR).
 
 ## Installing the container on Bridges 2
 Copy the
