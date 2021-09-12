@@ -1,4 +1,5 @@
 ![Status](https://github.com/pscedu/singularity-star/actions/workflows/main.yml/badge.svg)
+![Status](https://github.com/pscedu/singularity-star/actions/workflows/pretty.yml/badge.svg)
 ![Issue](https://img.shields.io/github/issues/pscedu/singularity-star)
 ![forks](https://img.shields.io/github/forks/pscedu/singularity-star)
 ![Stars](https://img.shields.io/github/stars/pscedu/singularity-star)
@@ -11,7 +12,7 @@ Singularity recipe for [star](https://github.com/alexdobin/STAR).
 Copy the
 
 * `SIF` file
-* and the `star` script
+* and the `STAR` script
 
 to `/opt/packages/star/2.7.6a`.
 
