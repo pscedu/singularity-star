@@ -34,6 +34,7 @@ For help, type
 Tools included in this module are
 
 * STAR
+* STARlong
 ]])
 
 local package = "STAR"
